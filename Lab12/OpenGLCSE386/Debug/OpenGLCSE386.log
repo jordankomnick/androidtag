@@ -1,0 +1,156 @@
+﻿Build started 12/2/2013 4:35:37 PM.
+     1>Project "C:\Users\Jordan\Documents\CSE386\androidtag\Lab12\OpenGLCSE386\OpenGLCSE386.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\OpenGLCSE386.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Include\Magick /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt aldlist.cpp bitmap_class.cpp Camera.cpp ColoredFigureOne.cpp ColoredPyramid.cpp Cone.cpp Controller.cpp CSE386labOne.cpp Cube.cpp CWaves.cpp Cylinder.cpp FigureOne.cpp Floor.cpp Floor2.cpp FollowCamera.cpp Framework.cpp GeneralLightingTechnique.cpp glutBase.cpp Lighting.cpp ListenerCamera.cpp LoadedModelVisualObject.cpp LoadOAL.cpp LoadShaders.cpp OpenGLApplicationBase.cpp OrbitController.cpp Pyramid.cpp SharedGeneralLighting.cpp SharedProjectionAndViewing.cpp SoundSource.cpp SpaceShip.cpp Sphere.cpp Spinner.cpp textureCoordinates.cpp Torus.cpp TwoTriangleFigure.cpp VisualObject.cpp Wall.cpp WaypointController.cpp WaypointController2.cpp
+         WaypointController2.cpp
+         WaypointController.cpp
+         Wall.cpp
+         VisualObject.cpp
+         TwoTriangleFigure.cpp
+         Torus.cpp
+         textureCoordinates.cpp
+         Spinner.cpp
+         Sphere.cpp
+         SpaceShip.cpp
+         SoundSource.cpp
+         SharedProjectionAndViewing.cpp
+         SharedGeneralLighting.cpp
+         Pyramid.cpp
+         OrbitController.cpp
+         OpenGLApplicationBase.cpp
+         LoadShaders.cpp
+         LoadOAL.cpp
+         LoadedModelVisualObject.cpp
+         ListenerCamera.cpp
+         Generating Code...
+         Compiling...
+         Lighting.cpp
+         glutBase.cpp
+         GeneralLightingTechnique.cpp
+         Framework.cpp
+     1>c:\users\jordan\documents\cse386\androidtag\lab12\openglcse386\framework.cpp(218): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         FollowCamera.cpp
+         Floor2.cpp
+         Floor.cpp
+         FigureOne.cpp
+         Cylinder.cpp
+         CWaves.cpp
+         Cube.cpp
+         CSE386labOne.cpp
+         Controller.cpp
+         Cone.cpp
+         ColoredPyramid.cpp
+         ColoredFigureOne.cpp
+         Camera.cpp
+         bitmap_class.cpp
+     1>c:\users\jordan\documents\cse386\androidtag\lab12\openglcse386\bitmap_class.cpp(75): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         aldlist.cpp
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Jordan\Documents\CSE386\androidtag\Lab12\Debug\OpenGLCSE386.lib" /LIBPATH:..\Lib /NOLOGO Debug\aldlist.obj
+         Debug\bitmap_class.obj
+         Debug\Camera.obj
+         Debug\ColoredFigureOne.obj
+         Debug\ColoredPyramid.obj
+         Debug\Cone.obj
+         Debug\Controller.obj
+         Debug\CSE386labOne.obj
+         Debug\Cube.obj
+         Debug\CWaves.obj
+         Debug\Cylinder.obj
+         Debug\FigureOne.obj
+         Debug\Floor.obj
+         Debug\Floor2.obj
+         Debug\FollowCamera.obj
+         Debug\Framework.obj
+         Debug\GeneralLightingTechnique.obj
+         Debug\glutBase.obj
+         Debug\Lighting.obj
+         Debug\ListenerCamera.obj
+         Debug\LoadedModelVisualObject.obj
+         Debug\LoadOAL.obj
+         Debug\LoadShaders.obj
+         Debug\OpenGLApplicationBase.obj
+         Debug\OrbitController.obj
+         Debug\Pyramid.obj
+         Debug\SharedGeneralLighting.obj
+         Debug\SharedProjectionAndViewing.obj
+         Debug\SoundSource.obj
+         Debug\SpaceShip.obj
+         Debug\Sphere.obj
+         Debug\Spinner.obj
+         Debug\textureCoordinates.obj
+         Debug\Torus.obj
+         Debug\TwoTriangleFigure.obj
+         Debug\VisualObject.obj
+         Debug\Wall.obj
+         Debug\WaypointController.obj
+         Debug\WaypointController2.obj
+         OpenGLCSE386.vcxproj -> C:\Users\Jordan\Documents\CSE386\androidtag\Lab12\Debug\OpenGLCSE386.lib
+       PostBuildEvent:
+         copy "C:\Users\Jordan\Documents\CSE386\androidtag\Lab12\Debug\OpenGLCSE386.lib" "C:\Users\Jordan\Documents\CSE386\androidtag\Lab12\"\"Lib\OpenGLCSE386.lib"
+         copy "*.h" "C:\Users\Jordan\Documents\CSE386\androidtag\Lab12\"\Include\
+         :VCEnd
+                 1 file(s) copied.
+         al.h
+         alc.h
+         aldlist.h
+         bitmap_class.h
+         callbacks.h
+         Camera.h
+         ColoredFigureOne.h
+         ColoredPyramid.h
+         Cone.h
+         Controller.h
+         Cube.h
+         CWaves.h
+         Cylinder.h
+         efx-creative.h
+         EFX-Util.h
+         efx.h
+         FigureOne.h
+         Floor.h
+         Floor2.h
+         FollowCamera.h
+         font.h
+         Framework.h
+         GeneralLightingTechnique.h
+         glutBase.h
+         Lighting.h
+         ListenerCamera.h
+         LoadedModelVisualObject.h
+         LoadOAL.h
+         LoadShaders.h
+         OpenGLApplicationBase.h
+         OrbitController.h
+         Pyramid.h
+         SharedGeneralLighting.h
+         SharedProjectionAndViewing.h
+         SoundSource.h
+         SpaceShip.h
+         Sphere.h
+         Spinner.h
+         Texture.h
+         textureCoordinates.h
+         Torus.h
+         TwoTriangleFigure.h
+         UpwardCone.h
+         vertexStructs.h
+         VisualObject.h
+         Wall.h
+         WaypointController.h
+         WaypointController2.h
+         xram.h
+                49 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\OpenGLCSE386.unsuccessfulbuild".
+         Touching "Debug\OpenGLCSE386.lastbuildstate".
+     1>Done Building Project "C:\Users\Jordan\Documents\CSE386\androidtag\Lab12\OpenGLCSE386\OpenGLCSE386.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:02.00

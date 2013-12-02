@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\VisualObjects">
+      <UniqueIdentifier>{c44c24d0-5cd3-4557-ab0a-c32ced0da588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VisualObjects">
+      <UniqueIdentifier>{3b5d56bc-6dc9-4446-b507-40550b8f95e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cameras">
+      <UniqueIdentifier>{6bf7875c-4577-4954-abe0-1365eaa101a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controllers">
+      <UniqueIdentifier>{80b3965d-e76d-4ae0-a321-911ae46bf5fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sound">
+      <UniqueIdentifier>{b4c51191-da06-4580-b3b3-93667be16646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Font">
+      <UniqueIdentifier>{c1f23674-c501-4686-ae2d-b8f81300751e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lighting">
+      <UniqueIdentifier>{1fd3e658-9061-405f-9ce8-40d861e3390e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Loaders and Utilities">
+      <UniqueIdentifier>{dc4c836d-5393-4fd5-80b3-814ac818ef0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cameras">
+      <UniqueIdentifier>{7b773282-1998-40c5-84f0-93ac06781a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controllers">
+      <UniqueIdentifier>{ea3fe40c-7469-4e2c-9f8f-e9924202e960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lighting">
+      <UniqueIdentifier>{470474ac-afde-4890-b6ef-cf342514e074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Loaders and Utilities">
+      <UniqueIdentifier>{5c754243-f09c-4794-b315-4813ffda220d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{c4cfe0e5-961b-4cd9-9375-ab291417e78f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glutBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="callbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLApplicationBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="al.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="alc.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="aldlist.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="ColoredFigureOne.h">
+      <Filter>Header Files\VisualObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Cone.h">
+      <Filter>Header Files\VisualObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ColoredPyramid.h">
+      <Filter>Header Files\VisualObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Header Files\VisualObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CWaves.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>Header Files\VisualObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="efx-creative.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="EFX-Util.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="efx.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="FigureOne.h">
+      <Filter>Header Files\VisualObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>Header Files\VisualObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor2.h">
+      <Filter>Header Files\VisualObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowCamera.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralLightingTechnique.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>Header Files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="bitmap_class.h">
+      <Filter>Header Files\Loaders and Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Lighting.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadOAL.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadShaders.h">
+      <Filter>Header Files\Loaders and Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbitController.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Pyramid.h">
+      <Filter>Header Files\VisualObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedGeneralLighting.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceShip.h">
+      <Filter>Header Files\VisualObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Spinner.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Torus.h">
+      <Filter>Header Files\VisualObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Header Files\VisualObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="textureCoordinates.h">
+      <Filter>Header Files\Loaders and Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexStructs.h">
+      <Filter>Header Files\Loaders and Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Header Files\VisualObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoTriangleFigure.h">
+      <Filter>Header Files\VisualObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualObject.h">
+      <Filter>Header Files\VisualObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="xram.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="WaypointController2.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="WaypointController.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedProjectionAndViewing.h">
+      <Filter>Header Files\Loaders and Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadedModelVisualObject.h">
+      <Filter>Header Files\VisualObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ListenerCamera.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glutBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLApplicationBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSE386labOne.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cone.cpp">
+      <Filter>Source Files\VisualObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="aldlist.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmap_class.cpp">
+      <Filter>Source Files\Loaders and Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="ColoredFigureOne.cpp">
+      <Filter>Source Files\VisualObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ColoredPyramid.cpp">
+      <Filter>Source Files\VisualObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Source Files\VisualObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="CWaves.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder.cpp">
+      <Filter>Source Files\VisualObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="FigureOne.cpp">
+      <Filter>Source Files\VisualObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>Source Files\VisualObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor2.cpp">
+      <Filter>Source Files\VisualObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowCamera.cpp">
+      <Filter>Source Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralLightingTechnique.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadOAL.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadShaders.cpp">
+      <Filter>Source Files\Loaders and Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbitController.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Pyramid.cpp">
+      <Filter>Source Files\VisualObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadedModelVisualObject.cpp">
+      <Filter>Source Files\VisualObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedGeneralLighting.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceShip.cpp">
+      <Filter>Source Files\VisualObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Source Files\VisualObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Spinner.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Torus.cpp">
+      <Filter>Source Files\VisualObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Source Files\VisualObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualObject.cpp">
+      <Filter>Source Files\VisualObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoTriangleFigure.cpp">
+      <Filter>Source Files\VisualObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="textureCoordinates.cpp">
+      <Filter>Source Files\Loaders and Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedProjectionAndViewing.cpp">
+      <Filter>Source Files\Loaders and Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ListenerCamera.cpp">
+      <Filter>Source Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WaypointController.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="WaypointController2.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pFS.frag" />
+    <None Include="pVS.vert" />
+    <None Include="pFScolor.frag" />
+    <None Include="pVScolor.vert" />
+  </ItemGroup>
+</Project>
